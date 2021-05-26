@@ -8,3 +8,12 @@
 3)  Bonus-
     a) create web server to explore API and provide get/post functionalities
     
+
+Technologies used:
+    1) AWS: EC2, elastic IP
+    2) GIT
+    3) Docker
+    4) Webserver
+    5) API
+    6) python modules
+    7) Microservice architecture
