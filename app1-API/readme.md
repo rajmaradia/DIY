@@ -1,6 +1,3 @@
-foo
-
-
 #TOTD
 
 1)  Build a container app in any public cloud to accomplish following:
