@@ -11,7 +11,7 @@ def main():
 
 
 def initialize():
-    nyt_api = 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=lQwZxNJFBYcpRAEZPp9s92tK2FhK3bmM'
+    nyt_api = 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key='+os.getenv("NYT_API_KEY")
     response = requests.get(nyt_api)
 
     if response.status_code !=200:
