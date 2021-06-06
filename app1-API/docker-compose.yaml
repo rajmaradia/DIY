@@ -1,0 +1,5 @@
+services:
+  python:
+    image: 'app1-api:v1.1'
+    env_file:
+      - myvars.env
